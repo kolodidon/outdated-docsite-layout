@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/doctor-page/doctor-page.css">
+    <title>Страница врача</title>
+</head>
+
+<body>
+    <header>
+        <!-- МЕНЮ-БУРГЕР -->
+        <input class="burger-check" id="burger-check" type="checkbox">
+        <label for="burger-check" class="burger"></label>
+        <nav id="navigation1" class="navigation">
+            <ul>
+                <li><a href="#">Врачи</a></li>
+                <li><a href="#">Клиники</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Диагностика</a></li>
+            </ul>
+        </nav>
+        </div>
+        <!-- /МЕНЮ-БУРГЕР -->
+
+        <!-- ШАПКА -->
+        <div id="wrapper" class="header true-header">
+            <div class="header__block">
+                <a href="index.html" class="header__logo">
+                    <img src="images/logo.png" alt="Логотип">
+                </a>
+            </div>
+            <div class="header__block">
+                <nav class="header__menu">
+                    <ul class="header__menu-navbar">
+                        <li class="header__menu-active"><a href="#">Врачи</a></li>
+                        <li><a href="#">Клиники</a></li>
+                        <li><a href="#">Услуги</a></li>
+                        <li><a href="#">Диагностика</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__block">
+                <select class='header__select-city'>
+                    <option>Москва</option>
+                    <option>Санкт-Петербург</option>
+                    <option>Екатеренбург</option>
+                </select>
+            </div>
+        </div>
+        <!-- /ШАПКА -->
+
+        <!-- ПОЛОСА ПОД ШАПКОЙ -->
+        <div class="header__line"></div>
+        <!-- /ПОЛОСА ПОД ШАПКОЙ -->
+
+        <!-- ХЛЕБНЫЕ КРОШКИ -->
+        <div id="wrapper">
+            <nav class="breadcrumbs">
+                <ul class="breadcrumbs__list">
+                    <li class="breadcrumbs__item"><a href="#" class="breadcrumbs-link">Главная</a></li>
+                    <li class="breadcrumbs__item"><a href="#" class="breadcrumbs-link">Москва</a></li>
+                    <li class="breadcrumbs__item"><a href="#" class="breadcrumbs-link">Врачи</a></li>
+                    <li class="breadcrumbs__item"><a href="#" class="breadcrumbs-link">Педиатр</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- /ХЛЕБНЫЕ КРОШКИ -->
+
+    </header>
+
+    <main>
+
+        <!-- БЛОК ПОИСКА -->
+        <div class="search">
+            <div class="search__background"></div>
+            <div id="wrapper" class="search__formbox">
+                <form action="#" class="search__form">
+                    <input type="text" name="search" id="search" placeholder="Педиатр">
+                    <input type="submit" value="Поиск">
+                </form>
+            </div>
+        </div>
+        <!-- /БЛОК ПОИСКА -->
+
+        <!-- КАРУСЕЛЬ С ВОПРОСАМИ -->
+        <div id="wrapper" class="questions-slider">
+            <button class="questions-slider__item"><a href="#">Вопрос 1 Вопрос 1</a></button>
+            <button class="questions-slider__item"><a href="#">Вопрос 2 Вопрос 2</a></button>
+            <button class="questions-slider__item"><a href="#">Вопрос 3 Вопрос 3</a></button>
+            <button class="questions-slider__item"><a href="#">Вопрос 4 Вопрос 4</a></button>
+            <button class="questions-slider__item"><a href="#">Вопрос 5 Вопрос 5</a></button>
+            <button class="questions-slider__item"><a href="#">Вопрос 6 Вопрос 6</a></button>
+            <button class="questions-slider__item"><a href="#">Вопрос 7 Вопрос 7</a></button>
+            <button class="questions-slider__item"><a href="#">Вопрос 8 Вопрос 8</a></button>
+            <button class="questions-slider__item"><a href="#">Вопрос 9 Вопрос 9</a></button>
+            <button class="questions-slider__item"><a href="#">Вопрос 10 Вопрос 10</a></button>
+            <button class="questions-slider__item"><a href="#">Вопрос 11 Вопрос 11</a></button>
+            <button class="questions-slider__item"><a href="#">Вопрос 12 Вопрос 12</a></button>
+            <button class="questions-slider__item"><a href="#">Вопрос 13 Вопрос 13</a></button>
+            <button class="questions-slider__item"><a href="#">Вопрос 14 Вопрос 14</a></button>
+            <button class="questions-slider__item"><a href="#">Вопрос 15 Вопрос 15</a></button>
+            <button class="questions-slider__item"><a href="#">Вопрос 16 Вопрос 16</a></button>
+            <button class="questions-slider__item"><a href="#">Вопрос 17 Вопрос 17</a></button>
+            <button class="questions-slider__item"><a href="#">Вопрос 18 Вопрос 18</a></button>
+            <button class="questions-slider__item"><a href="#">Вопрос 19 Вопрос 19</a></button>
+            <button class="questions-slider__item"><a href="#">Вопрос 20 Вопрос 20</a></button>
+        </div>
+        <!-- /КАРУСЕЛЬ С ВОПРОСАМИ -->
+
+        <!-- КАРТОЧКА ВРАЧА -->
+        <div id="wrapper" class='doctor-block'>
+            <div class="doctor-img">
+                <img src="images/doctor_pic.png" width="200" height="200">
+                <div class="rating-container">
+                    <div class="rating">
+                        <div class="rating-item rating-item_active" data-rate="1"></div>
+                        <div class="rating-item" data-rate="2"></div>
+                        <div class="rating-item" data-rate="3"></div>
+                        <div class="rating-item" data-rate="4"></div>
+                        <div class="rating-item" data-rate="5"></div>
+                    </div>
+                </div>
+                <div id='doctor-review'>
+                    <a href="">26 отзывов</a>
+                </div>
+            </div>
+            <div class="doctor__info">
+                <p class="doctor__info-city">Москва</p>
+                <div class="doctor__info-name"><a h class="disabled" ref="#">Александровский Сергей Борисович</a></div>
+                <div class="doctor__info-buttons">
+                    <button class="doctor__info-button"><a href="#">Записаться</a></button>
+                    <button class="doctor__info-button"><a href="#">Отзывы</a></button>
+                    <button class="doctor__info-button"><a href="#">Опыт работы</a></button>
+                    <button class="doctor__info-button"><a href="#">Адрес работы</a></button>
+                </div>
+                <p class="doctor__info-description">Детский инфекционист, педиатр</p>
+                <p class='doctor__info-experience'>Стаж 23 года</p>
+                <p class="doctor__info-education">Высшая категория к.м.н.</p>
+                <p class="doctor__info-moreinfo">Тарасова Татьяна Леонидовна, Москва: детский инфекционист, педиатр, 9
+                    отзывов пациентов, места работы, высшая категория, стаж 26 лет, запись на приём (499) 504-16-34.</p>
+                <div class="doctor__info-buttons">
+                    <button class="doctor__info-orderbutton doctor__info-button"><a href="#">Запись на
+                            прием</a></button>
+                    <button class="doctor__info-replybutton doctor__info-button"><a href="#">Оставить отзыв</a></button>
+                </div>
+            </div>
+            <div class="doctor__price"> <b>от </b> <b>5000</b> <b>&#8381;</b> </div>
+        </div>
+        <!-- /КАРТОЧКА ВРАЧА -->
+
+        <!-- РАЗДЕЛ ЗАПИСИ НА ПРИЕМ -->
+        <div id="wrapper" class="ticket">
+            <p class="ticket__title">Записаться на прием к врачу</p>
+            <div class="ticket__block">
+                <div class="ticket__block-mapzone">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1121.4528332952257!2d37.611461492770005!3d55.79487591902347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a00ccffd653%3A0x45328ac657850f88!2sSL%20Foto!5e0!3m2!1sru!2sru!4v1596553673100!5m2!1sru!2sru"
+                        width="100%" height="100" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                    <div class="mapzone__icon">
+                        <img src="images/location-on-map.png" alt="карта">
+                        <a target="blank"
+                            href="https://maps.google.com/maps?ll=55.794556,37.610016&z=15&t=m&hl=ru&gl=RU&mapclient=embed&cid=4986200321929056136">Посмотреть
+                            на карте</a>
+                    </div>
+                </div>
+                <div class="ticket__block-infozone">
+                    <div class="infozone__info">
+                        <p class="info__hospital-name">Детская клиника &laquo;СМ-Доктор&raquo; в Марьиной Роще</p>
+                        <p class="infozone__service-1">Детский инфекционист - <b>от 2300&#8381;</b></p>
+                        <p class="infozone__service-2">Педиатр - <b>от 1950&#8381;</b> / на дом - <b>от 3500&#8381;</b>
+                        </p>
+                        <p class="infozone__address"><b>3-й проезд Марьиной Рощи, д. 41</b></p>
+                        <div class="infozone__metro">
+                            <div class="metro__item"><svg width="14" height="14">
+                                    <circle cx="7" cy="7" r="7" fill="#a0d70d" /></svg>
+                                <p>Савеловская <span>(1,6км)</span></p>
+                            </div>
+                            <div class="metro__item"><svg width="14" height="14">
+                                    <circle cx="7" cy="7" r="7" fill="#8f949e" /></svg>
+                                <p>Марьина роща <span>(351м)</span></p>
+                            </div>
+                        </div>
+                        <a href="tel:+74995041634" class="infozone__phone"><b><span>(</span>499<span>)</span>
+                                504-16-34</b></a>
+                        <p class="infozone__question">Как клиника работает в условиях эпидемии COVID-19?</p>
+                    </div>
+                    <div class="infozone__date">
+                        <div class="date__days">
+                            <div id="ticket" class="calendar">
+                                <div class="active"><a href="#ticket">Пн<br>1</a></div>
+                                <div class="active"><a href="#ticket">Вт<br>2</a></div>
+                                <div class="active"><a href="#ticket">Ср<br>3</a></div>
+                                <div class="active"><a href="#ticket">Чт<br>4</a></div>
+                                <div class="active"><a href="#ticket">Пт<br>5</a></div>
+                                <div class="active"><a href="#ticket">Сб<br>6</a></div>
+                                <div class="disabled"><a href="">Вс<br>7</a></div>
+                                <div class="active"><a href="#ticket">Пн<br>8</a></div>
+                                <div class="active"><a href="#ticket">Вт<br>9</a></div>
+                                <div class="active"><a href="#ticket">Ср<br>10</a></div>
+                                <div class="active"><a href="#ticket">Чт<br>11</a></div>
+                                <div class="active"><a href="#ticket">Пт<br>12</a></div>
+                                <div class="active"><a href="#ticket">Сб<br>13</a></div>
+                                <div class="disabled"><a href="">Вс<br>14</a></div>
+                                <div class="active"><a href="#ticket">Пн<br>15</a></div>
+                                <div class="active"><a href="#ticket">Вт<br>16</a></div>
+                                <div class="active"><a href="#ticket">Ср<br>17</a></div>
+                                <div class="active"><a href="#ticket">Чт<br>18</a></div>
+                                <div class="active"><a href="#ticket">Пт<br>19</a></div>
+                                <div class="active"><a href="#ticket">Сб<br>20</a></div>
+                                <div class="disabled"><a href="">Вс<br>21</a></div>
+                                <div class="active"><a href="#ticket">Пн<br>22</a></div>
+                                <div class="active"><a href="#ticket">Вт<br>23</a></div>
+                                <div class="active"><a href="#ticket">Ср<br>24</a></div>
+                                <div class="active"><a href="#ticket">Чт<br>25</a></div>
+                                <div class="active"><a href="#ticket">Пт<br>26</a></div>
+                                <div class="active"><a href="#ticket">Сб<br>27</a></div>
+                                <div class="disabled"><a href="">Вс<br>28</a></div>
+                                <div class="active"><a href="#ticket">Пн<br>29</a></div>
+                                <div class="active"><a href="#ticket">Вт<br>30</a></div>
+                                <div class="active"><a href="#ticket">Ср<br>31</a></div>
+                            </div>
+                        </div>
+                        <div id="hours" class="date__hours hidden">
+                            <div class="hours__container">
+                                <button><a href="#ticket" class="hours__hour ordercall">15:00</a></button>
+                                <button><a href="#ticket" class="hours__hour ordercall">15:30</a></button>
+                                <button><a href="#ticket" class="hours__hour ordercall">16:00</a></button>
+                                <button><a href="#ticket" class="hours__hour ordercall">16:30</a></button>
+                                <button><a href="#ticket" class="hours__hour ordercall">17:00</a></button>
+                                <button><a href="#ticket" class="hours__hour ordercall">17:30</a></button>
+                                <button><a href="#ticket" class="hours__hour ordercall">18:00</a></button>
+                            </div>
+                        </div>
+                        <a href="#" class="infozone__date-schedule">Посмотреть полное расписание</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /РАЗДЕЛ ЗАПИСИ НА ПРИЕМ -->
+
+        <!-- ОТЗЫВЫ О ВРАЧЕ -->
+        <div id="wrapper" class="replies-block">
+            <div class="replies__header">
+                <div class="header__upper-container">
+                    <div>
+                        <div class="replies__title">Отзывы о враче</div>
+                        <div class="replies__docname">Александровский Сергей Борисович</div>
+                    </div>
+                    <button><a href="#">Оставить отзыв</a></button>
+                </div>
+                <div class="header__lower-container">
+                    <div>
+                        <p>Все (<b>26</b>)</p>
+                    </div>
+                    <div>
+                        <p>Положительные (<b>10</b>)</p>
+                    </div>
+                    <div>
+                        <p>Нейтральные (<b>10</b>)</p>
+                    </div>
+                    <div>
+                        <p>Отрицательные (<b>26</b>)</p>
+                    </div>
+                </div>
+                <div class="replies__line"></div>
+            </div>
+            <div class="replies__reply">
+                <div class="reply__left-container">
+                    <div class="reply__phone">+7-985-07XXXXX</div>
+                    <div class="reply__grade positive"><span>Отлично</span></div>
+                    <div class="reply__visit-date">
+                        <p>Посетили врача</p>
+                        <b>Август 2017</b>
+                    </div>
+                    <div class="reply__from">
+                        <p>Отзыв оставлен через</p>
+                        <b>Колл-центр</b>
+                    </div>
+                </div>
+                <div class="reply__right-container">
+                    <b class="reply__title">Комментарий</b>
+                    <p class="reply__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo rerum accusamus
+                        unde laudantium possimus quae rem. Adipisci quos accusantium, tempora ex, sint rerum culpa
+                        officia expedita quidem repellendus aperiam soluta architecto sequi temporibus praesentium iste
+                        placeat nihil quibusdam autem deleniti id porro libero. Perferendis incidunt amet aliquam, unde
+                        esse doloribus repellat quam sit vero, ad accusamus vel voluptatem ut illum rem facere culpa
+                        officia explicabo tempore cumque consequuntur architecto qui velit! Reiciendis neque vitae quis
+                        nobis eum est minus laudantium, dolorem voluptatem nihil quos iure architecto excepturi, ut
+                        cumque officiis saepe sit asperiores in atque ullam animi! Deserunt perspiciatis minima deleniti
+                        voluptates quis dolorem veritatis, dicta, consequuntur explicabo animi voluptatem non nisi rem
+                        quaerat. Voluptatem, beatae. Ut ullam nobis laboriosam recusandae quod optio quis tempora facere
+                        provident nisi deserunt totam maiores beatae velit libero cum quam repellendus, rem incidunt
+                        nulla aspernatur, non officia reiciendis alias! Dolorem deserunt quibusdam consectetur sapiente.
+                    </p>
+                    <p class="reply__date">12 декабря 2017 в 15:55</p>
+                </div>
+            </div>
+            <div class="replies__reply">
+                <div class="reply__left-container">
+                    <div class="reply__phone">+7-985-07XXXXX</div>
+                    <div class="reply__grade neutral"><span>Нормально</span></div>
+                    <div class="reply__visit-date">
+                        <p>Посетили врача</p>
+                        <b>Август 2017</b>
+                    </div>
+                    <div class="reply__from">
+                        <p>Отзыв оставлен через</p>
+                        <b>Колл-центр</b>
+                    </div>
+                </div>
+                <div class="reply__right-container">
+                    <b class="reply__title">Комментарий</b>
+                    <p class="reply__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo rerum accusamus
+                        unde laudantium possimus quae rem. Adipisci quos accusantium, tempora ex, sint rerum culpa
+                        officia expedita quidem repellendus aperiam soluta architecto sequi temporibus praesentium iste
+                        placeat nihil quibusdam autem deleniti id porro libero. Perferendis incidunt amet aliquam, unde
+                        esse doloribus repellat quam sit vero, ad accusamus vel voluptatem ut illum rem facere culpa
+                        officia explicabo tempore cumque consequuntur architecto qui velit! Reiciendis neque vitae quis
+                        nobis eum est minus laudantium, dolorem voluptatem nihil quos iure architecto excepturi, ut
+                        cumque officiis saepe sit asperiores in atque ullam animi! Deserunt perspiciatis minima deleniti
+                        voluptates quis dolorem veritatis, dicta, consequuntur explicabo animi voluptatem non nisi rem
+                        quaerat. Voluptatem, beatae. Ut ullam nobis laboriosam recusandae quod optio quis tempora facere
+                        provident nisi deserunt totam maiores beatae velit libero cum quam repellendus, rem incidunt
+                        nulla aspernatur, non officia reiciendis alias! Dolorem deserunt quibusdam consectetur sapiente.
+                    </p>
+                    <p class="reply__date">12 декабря 2017 в 15:55</p>
+                </div>
+            </div>
+            <div class="replies__reply">
+                <div class="reply__left-container">
+                    <div class="reply__phone">+7-985-07XXXXX</div>
+                    <div class="reply__grade negative"><span>Плохо</span></div>
+                    <div class="reply__visit-date">
+                        <p>Посетили врача</p>
+                        <b>Август 2017</b>
+                    </div>
+                    <div class="reply__from">
+                        <p>Отзыв оставлен через</p>
+                        <b>Колл-центр</b>
+                    </div>
+                </div>
+                <div class="reply__right-container">
+                    <b class="reply__title">Комментарий</b>
+                    <p class="reply__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo rerum accusamus
+                        unde laudantium possimus quae rem. Adipisci quos accusantium, tempora ex, sint rerum culpa
+                        officia expedita quidem repellendus aperiam soluta architecto sequi temporibus praesentium iste
+                        placeat nihil quibusdam autem deleniti id porro libero. Perferendis incidunt amet aliquam, unde
+                        esse doloribus repellat quam sit vero, ad accusamus vel voluptatem ut illum rem facere culpa
+                        officia explicabo tempore cumque consequuntur architecto qui velit! Reiciendis neque vitae quis
+                        nobis eum est minus laudantium, dolorem voluptatem nihil quos iure architecto excepturi, ut
+                        cumque officiis saepe sit asperiores in atque ullam animi! Deserunt perspiciatis minima deleniti
+                        voluptates quis dolorem veritatis, dicta, consequuntur explicabo animi voluptatem non nisi rem
+                        quaerat. Voluptatem, beatae. Ut ullam nobis laboriosam recusandae quod optio quis tempora facere
+                        provident nisi deserunt totam maiores beatae velit libero cum quam repellendus, rem incidunt
+                        nulla aspernatur, non officia reiciendis alias! Dolorem deserunt quibusdam consectetur sapiente.
+                    </p>
+                    <p class="reply__date">12 декабря 2017 в 15:55</p>
+                </div>
+            </div>
+        </div>
+        <!-- /ОТЗЫВЫ О ВРАЧЕ -->
+
+        <!-- ФОРМА ОБРАТНОЙ СВЯЗИ -->
+        <div id="modal">
+            <div class="order" id="order">
+              <div class="order__title">
+                <title>Запись на прием</title>
+              </div>
+              <div class="order__docinfo">
+                <div class="order__docimg-docrating">
+                  <div class="order__docimg">
+        
+                  </div>
+                  <div class="rating-container">
+                    <div class="rating">
+                      <div class="rating-item rating-item_active" data-rate="1"></div>
+                      <div class="rating-item rating-item_active" data-rate="2"></div>
+                      <div class="rating-item rating-item_active" data-rate="3"></div>
+                      <div class="rating-item" data-rate="4"></div>
+                      <div class="rating-item" data-rate="5"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="order__docdescr">
+                  <p class="order__docname">Александровский Сергей Борисович</p>
+                  <p class="order__docspec">Детский инфекционист, педиатр</p>
+                  <div class="order__price-address-metro">
+                    <p class="order___price-address-metro-params">Стоимость<br>Адрес<br>Метро</p>
+                    <p class="order___price-address-metro-chars">4800 руб.<br>ул. Советская 154а<br>Планерная (1.5 км)</p>
+                  </div>
+                </div>
+              </div>
+              <form class="order__form" action="#">
+                <div class="order__form-main">
+                  <div class="order__form-labels">
+                    <div><label for="spec">Специальность</label></div>
+                    <div><label for="clinic">Клиника</label></div>
+                    <div><label for="datetime">Дата и время приема</label></div>
+                    <div><label for="datetime2">Дата и время приема</label></div>
+                    <div><label for="surname">Фамилия</label></div>
+                    <div><label for="birthdate">Дата рождения пациента</label></div>
+                    <div><label for="telephone">Телефон</label></div>
+                  </div>
+                  <div class="order__form-inputs">
+                    <p class="small-label">Специальность</p>
+                    <input type="text" name="spec" id="spec" value="Инфекционист" disabled>
+                    <p class="small-label">Клиника</p>
+                    <input type="text" name="clinic" id="clinic" value="Ист-клиник" disabled>
+                    <p class="small-label">Дата и время приема</p>
+                    <input type="datetime" name="date-and-time" id="datetime" value="2 июня 11:00" disabled>
+                    <p class="small-label">Дата и время приема</p>
+                    <input type="datetime" name="date-and-time-2" id="datetime2" placeholder="Контактное лицо">
+                    <p class="small-label">Фамилия</p>
+                    <input type="text" name="surname" id="surname" placeholder="Фамилия">
+                    <p class="small-label">Дата рождения пациента</p>
+                    <input type="datetime" name="birth-date" id="birthdate" placeholder="дд-мм-гг">
+                    <p class="small-label">Телефон</p>
+                    <input type="tel" name="telephone" id="telephone" placeholder="+7 (___) ___ - __ - __">
+                  </div>
+                </div>
+                <div class="order__form-phone-notification">
+                  <span class="phone-notification-icon"></span>
+                  <p class="phone-notification-text">На этот телефон вы получите SMS<br>с кодом подтверждения и информацию о
+                    записи</p>
+                </div>
+                <input type="submit" value="Записаться">
+                <p class="agreement">Нажимая &laquo;Записаться&raquo;, я принимаю условия <a href="#">пользовательского
+                    соглашения</a> и даю <a href="#">согласие на обработку персональных данных</a></p>
+              </form>
+            </div>
+          </div>
+        <!-- /ФОРМА ОБРАТНОЙ СВЯЗИ -->
+    </main>
+    <footer>
+        <div class="header header-for-footer">
+            <div class="header-for-footer-container">
+                <div class="header__block">
+                    <a href="#" class="header__logo">
+                        <img src="images/logo-footer.png" alt="Логотип">
+                    </a>
+                </div>
+                <div class="header__block">
+                    <nav class="header__menu">
+                        <ul class="header__menu-navbar">
+                            <li class="header__menu-active"><a href="#">Врачи</a></li>
+                            <li><a href="#">Клиники</a></li>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">Диагностика</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__block">
+                    <select class='header__select-city'>
+                        <option>Москва</option>
+                        <option>Санкт-Петербург</option>
+                        <option>Екатеренбург</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/doctor-page/doctor-page.js"></script>
+
+</html>
